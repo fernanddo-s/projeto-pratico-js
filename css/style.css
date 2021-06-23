@@ -43,3 +43,21 @@ input {
     width: 70%;
     height: 25px;
 }
+
+#notas{
+    background-color: rgb(6, 188, 243); 
+    width: 95%; 
+    margin: 0px auto; 
+    height: 30px; 
+    text-align: left; 
+    border-style: solid;
+}
+
+#btnadd{
+    background-color: rgb(15, 90, 133);
+}
+
+#btn{
+    width: 30px; 
+    background-color: rgb(212, 34, 34);
+}
