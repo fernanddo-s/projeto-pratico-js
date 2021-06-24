@@ -8,6 +8,7 @@ btnAdd.onkeydown = adicionarTarefa;
 function adicionarTarefa(){
     if(tarefa.value != ''){
         note.innerHTML = ` `
+        
         tarefas.push(tarefa.value)
         for(var i = 0; i < tarefas.length; i++){
             note.innerHTML += `<br><div id="atividade${i}" onclick="concluir(${i})" style="background-color: rgb(18, 132, 185);width: 90%; margin: 0px auto; text-align: left;">${tarefas[i]} <input type="button" value="X" id="btn" onclick="apagarTarefa(${i})"></div>`
